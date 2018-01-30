@@ -29,3 +29,4 @@ hi Delimiter   cterm=NONE ctermfg=LightGray gui=NONE guifg=LightGray
 hi diffAdded   ctermfg=DarkGreen guifg=DarkGreen
 hi diffRemoved ctermfg=DarkRed guifg=DarkRed
 hi Visual      ctermfg=Gray guifg=Gray
+hi ColorColumn ctermbg=DarkGrey guibg=DarkGrey
