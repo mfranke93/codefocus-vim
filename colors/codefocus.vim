@@ -35,7 +35,7 @@ hi PmenuSel     ctermfg=0 ctermbg=12 cterm=bold guifg=#3b4252 guibg=#81a1c1 gui=
 hi MatchParen   ctermbg=NONE ctermfg=10 guifg=#a4be8c guibg=#282828
 hi! clear lCursor
 hi Cursor       ctermbg=15 ctermfg=0 guibg=#eceff4 guifg=#3b4252
-hi Folded       ctermbg=0 ctermbg=7 cterm=italic guibg=#3b4252 guifg=#e5e9f0 gui=italic
+hi Folded       ctermbg=0 ctermfg=7 cterm=italic guibg=#3b4252 guifg=#e5e9f0 gui=italic
 
 hi! link Constant   Normal
 hi! link Identifier Normal
