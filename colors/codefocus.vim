@@ -45,6 +45,9 @@ hi! link PreProc    Normal
 hi! link Type	    Normal
 hi! link Special    Normal
 hi! link Delimiter  Normal
+hi! link SignColumn Normal
 hi! link LineNr     Comment
 hi! link NonText    Comment
 hi! link FoldColumn Folded
+hi! link Error      diffRemoved
+hi! link ErrorMsg   diffRemoved
