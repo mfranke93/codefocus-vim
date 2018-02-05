@@ -15,12 +15,13 @@ endif
 
 let colors_name = "codefocus"
 
+hi Green       cterm=NONE ctermbg=NONE ctermfg=10 gui=NONE guibg=#282828 guifg=#a4be8c
+hi Red         cterm=NONE ctermbg=NONE ctermfg=9  gui=NONE guibg=#282828 guifg=#bf616a
+hi Blue        cterm=NONE ctermbg=NONE ctermfg=12 gui=NONE guibg=#282828 guifg=#81a1c1
+
 hi Normal      ctermfg=15 ctermbg=NONE guifg=#d8dee9 guibg=#282828
 hi Comment     cterm=NONE ctermfg=8 gui=NONE guifg=#4c566a
 hi String      cterm=italic ctermfg=7 ctermbg=NONE gui=italic guifg=#e5e9f0 guibg=NONE
-hi Special     ctermfg=15 ctermbg=NONE cterm=bold guifg=#d8dee9 guibg=#282828 gui=bold
-hi diffAdded   ctermfg=10 guifg=#a4be8c
-hi diffRemoved ctermfg=9 guifg=#bf616a
 hi Visual      ctermbg=8 guibg=#4c566a
 hi ColorColumn ctermbg=8 guibg=#4c566a
 hi CursorLineNr ctermbg=NONE ctermfg=8 guibg=NONE guifg=#4c566a
@@ -37,17 +38,20 @@ hi! clear lCursor
 hi Cursor       ctermbg=15 ctermfg=0 guibg=#eceff4 guifg=#3b4252
 hi Folded       ctermbg=0 ctermfg=7 cterm=italic guibg=#3b4252 guifg=#e5e9f0 gui=italic
 
-hi! link Constant   Normal
-hi! link Identifier Normal
-hi! link Function   Normal
-hi! link Statement  Normal
-hi! link PreProc    Normal
-hi! link Type	    Normal
-hi! link Special    Normal
-hi! link Delimiter  Normal
-hi! link SignColumn Normal
-hi! link LineNr     Comment
-hi! link NonText    Comment
-hi! link FoldColumn Folded
-hi! link Error      diffRemoved
-hi! link ErrorMsg   diffRemoved
+hi! link Constant       Normal
+hi! link Identifier     Normal
+hi! link Function       Normal
+hi! link Statement      Normal
+hi! link PreProc        Normal
+hi! link Type	        Normal
+hi! link Special        Normal
+hi! link Delimiter      Normal
+hi! link SignColumn     Normal
+hi! link LineNr         Comment
+hi! link NonText        Comment
+hi! link FoldColumn     Folded
+hi! link Error          Red
+hi! link ErrorMsg       Red
+hi! link diffAdded      Green
+hi! link diffRemoved    Red
+hi! link SpecialKey     Blue
