@@ -30,7 +30,7 @@ hi Search      ctermbg=12 guibg=#81a1c1
 hi Title        cterm=bold ctermfg=15 ctermbg=NONE gui=bold guifg=#d8dee9 guibg=#282828
 hi Tabline      cterm=italic ctermfg=15 ctermbg=NONE gui=italic guifg=#d8dee9 guibg=#282828
 hi TablineSel   cterm=bold ctermfg=3 ctermbg=NONE gui=bold guifg=#ebcb8b guibg=#282828
-hi TablineFill  ctermbg=NONE ctermfg=NONE guibg=#282828 guifg=#282828
+hi TablineFill  cterm=NONE ctermbg=NONE ctermfg=NONE gui=NONE guibg=#282828 guifg=#282828
 hi Pmenu        ctermfg=0 ctermbg=6 guifg=#3b4252 guibg=#88c0d0
 hi PmenuSel     ctermfg=0 ctermbg=12 cterm=bold guifg=#3b4252 guibg=#81a1c1 gui=bold
 hi MatchParen   ctermbg=NONE ctermfg=10 guifg=#a4be8c guibg=#282828
