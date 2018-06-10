@@ -37,6 +37,7 @@ hi MatchParen   ctermbg=NONE ctermfg=10 guifg=#a4be8c guibg=#282828
 hi! clear lCursor
 hi Cursor       ctermbg=15 ctermfg=0 guibg=#eceff4 guifg=#3b4252
 hi Folded       ctermbg=0 ctermfg=7 cterm=italic guibg=#3b4252 guifg=#e5e9f0 gui=italic
+hi Todo         ctermbg=NONE ctermfg=11 cterm=bold guibg=#282828 guifg=#ebcb8b gui=bold
 
 hi! link Constant       Normal
 hi! link Identifier     Normal
