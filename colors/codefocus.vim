@@ -25,7 +25,7 @@ hi String      cterm=italic ctermfg=7 ctermbg=NONE gui=italic guifg=#e5e9f0 guib
 hi Visual      ctermbg=8 guibg=#4c566a
 hi ColorColumn ctermbg=8 guibg=#4c566a
 hi CursorLineNr ctermbg=NONE ctermfg=8 guibg=NONE guifg=#4c566a
-hi CursorLine  cterm=underline gui=underline guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
+hi CursorLine  guifg=NONE guibg=NONE ctermfg=NONE ctermbg=NONE
 hi Search      ctermbg=12 guibg=#81a1c1
 hi Title        cterm=bold ctermfg=15 ctermbg=NONE gui=bold guifg=#d8dee9 guibg=#282828
 hi Tabline      cterm=italic ctermfg=15 ctermbg=NONE gui=italic guifg=#d8dee9 guibg=#282828
