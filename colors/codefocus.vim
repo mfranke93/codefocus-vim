@@ -18,6 +18,8 @@ let colors_name = "codefocus"
 hi Green       cterm=NONE ctermbg=NONE ctermfg=10 gui=NONE guibg=#282828 guifg=#a4be8c
 hi Red         cterm=NONE ctermbg=NONE ctermfg=9  gui=NONE guibg=#282828 guifg=#bf616a
 hi Blue        cterm=NONE ctermbg=NONE ctermfg=12 gui=NONE guibg=#282828 guifg=#81a1c1
+hi Yellow      cterm=NONE ctermbg=NONE ctermfg=3  gui=NONE guibg=#282828 guifg=#ebcb8b
+hi Violet      cterm=NONE ctermbg=NONE ctermfg=5  gui=NONE guibg=#282828 guifg=#b48ead
 
 hi Normal      ctermfg=15 ctermbg=NONE guifg=#d8dee9 guibg=#282828
 hi Comment     cterm=NONE ctermfg=8 gui=NONE guifg=#4c566a
@@ -44,7 +46,7 @@ hi! link Identifier     Normal
 hi! link Function       Normal
 hi! link Statement      Normal
 hi! link PreProc        Normal
-hi! link Type	        Normal
+hi! link Type           Normal
 hi! link Special        Normal
 hi! link Delimiter      Normal
 hi! link SignColumn     Normal
@@ -56,3 +58,54 @@ hi! link ErrorMsg       Red
 hi! link diffAdded      Green
 hi! link diffRemoved    Red
 hi! link SpecialKey     Blue
+
+" GITCOMMIT
+hi! link gitcommitDiff              Normal
+hi! link gitcommitBlank             Error
+hi! link gitcommitOverflow          Error
+hi! link gitcommitFirstLine         Title
+hi! link gitcommitSummary           Title
+
+hi! link gitcommitComment           Comment
+hi! link gitcommitHead              Normal
+hi! link gitcommitBranch            Blue
+hi! link gitcommitOnBranch          Comment
+hi! link gitcommitNoBranch          gitcommitBranch
+hi! link gitcommitHeader            String
+hi! link gitcommitAuthor            Blue
+hi! link gitcommitNoChanges         gitcommitHeader
+hi! link gitcommitUntrackedFile     Yellow
+hi! link gitcommitUntracked         gitcommitComment
+hi! link gitcommitDiscardedType     Red
+hi! link gitcommitDiscarded         gitcommitComment
+hi! link gitcommitSelectedType      Green
+hi! link gitcommitSelected          gitcommitComment
+hi! link gitcommitUnmergedType      Violet
+hi! link gitcommitUnmerged          gitcommitComment
+hi! link gitcommitDiscardedFile     Red
+hi! link gitcommitSelectedFile      Green
+hi! link gitcommitUnmergedFile      Violet
+hi! link gitcommitDiscardedArrow    gitcommitArrow
+hi! link gitcommitSelectedArrow     gitcommitArrow
+hi! link gitcommitUnmergedArrow     gitcommitArrow
+hi! link gitcommitWarning           Red
+hi! link gitcommitType              Type
+hi! link gitcommitFile              Constant
+hi! link gitcommitArrow             gitcommitComment
+
+" DIFF
+hi! link diffOnly                   Normal
+hi! link diffIdentical              Normal
+hi! link diffDiffer                 Violet
+hi! link diffBDiffer                Violet
+hi! link diffIsA                    Constant
+hi! link diffNoEOL                  Error
+hi! link diffCommon                 Normal
+hi! link diffChanged                Violet
+hi! link diffSubname                Title
+hi! link diffLine                   Violet
+hi! link diffFile                   Blue
+hi! link diffOldFile                Red
+hi! link diffNewFile                Green
+hi! link diffIndexLine              Violet
+hi! link diffComment                Comment
